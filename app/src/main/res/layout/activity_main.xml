@@ -42,18 +42,20 @@
 
     <Button
         android:id="@+id/add"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="150dp"
         android:outlineAmbientShadowColor="#000000"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FBC02D"
         android:text="Add" />
 
     <Button
         android:id="@+id/delete"
+        android:layout_marginLeft="150dp"
         android:outlineAmbientShadowColor="#000000"
         android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FBC02D"
 
@@ -62,8 +64,9 @@
     <Button
         android:id="@+id/update"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
         android:outlineAmbientShadowColor="#000000"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#FBC02D"
         android:text="Update" />
@@ -71,8 +74,9 @@
     <Button
         android:id="@+id/view"
         android:outlineAmbientShadowColor="#000000"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
         android:layout_height="wrap_content"
         android:background="#FBC02D"
         android:text="View" />
