@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#689F38">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColorHint="#FFF"
+        android:hint="Enter ID"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/quantity"
+        android:textColorHint="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Quantitty"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_marginTop="10dp"
+        android:outlineAmbientShadowColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/delete"
+        android:outlineAmbientShadowColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_marginTop="10dp"
+        android:outlineAmbientShadowColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/view"
+        android:outlineAmbientShadowColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="#FBC02D"
+        android:text="View" />
+</LinearLayout>
